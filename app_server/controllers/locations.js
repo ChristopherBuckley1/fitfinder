@@ -13,21 +13,24 @@ const home = function(req, res)
             {
                 locationName: 'Kerry sports academy',
                 tags: ['Fitness Classess', 'Full Gym','Swimming pool'],
-                distance: 200
+                distance: 200,
+                kidFriendly: true
             },
 
             card2:
             {
                 locationName: 'X-TREAM BJJ',
                 tags: ['Martial Arts', 'Gym Facilities','Fitness classes', 'Jiu Jitsu', 'Brazilian Jiu Jitsu'],
-                distance: 373
+                distance: 373,
+                kidFriendly: false
             },
 
             card3:
             {
                 locationName: 'BUG Sports',
                 tags: ['Extreme Powerlifting', 'Muay Thai','Karate', 'Jiu Jitsu', 'Brazilian Jiu Jitsu','Stunts','Juice Bar'],
-                distance: 793
+                distance: 793,
+                kidFriendly: false
             },
 
             card4:
